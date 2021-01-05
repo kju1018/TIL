@@ -43,7 +43,7 @@ GUI는 직관적이고 사용이 매우 쉽다. 하지만 CLI는 어렵다. 그�
 
 GIT Bash를 사용해서 실습을 진행할 예정이다.
 
-
+![20210105_222701](D:\Study\학습자료\TIL\정리\POSIX\20210105_222701.png)
 
 <GIT Bash>
 
@@ -53,4 +53,3 @@ GIT Bash를 사용해서 실습을 진행할 예정이다.
 
 - [생활코딩 POSIX CLI](https://www.opentutorials.org/module/3747)
 
-![20210105_222701](D:\Study\학습자료\TIL\정리\POSIX\20210105_222701.png)
