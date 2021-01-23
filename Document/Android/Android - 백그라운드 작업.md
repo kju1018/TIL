@@ -39,4 +39,4 @@ JobScheduler가 호출하는 `onStartJob` 등의 메소드는 모두 main thread
 
 앱이 종료되거나 기기가 다시 시작되더라도 실행이 예상되는 연기 가능한 비동기 작업을 쉽게 예약할 수 있는 라이브러리
 
-존에 JobScheduler가 이와 비슷한 역할을 하였는데요. 편의기능을 더하여 WorkManager를 만들었다. WorkManager는 내부적으로 JobScheduler를 사용하며(API 23 이상) JobScheduler를 지원하지 않는 단말(API 14~22)은 AlarmManager 또는 BroadcastReceiver를 사용하도록 구현되었다.
+기존에 JobScheduler가 이와 비슷한 역할을 하였는데 편의기능을 더하여 WorkManager를 만들었다. WorkManager는 내부적으로 JobScheduler를 사용하며(API 23 이상) JobScheduler를 지원하지 않는 단말(API 14~22)은 AlarmManager 또는 BroadcastReceiver를 사용하도록 구현되었다.
