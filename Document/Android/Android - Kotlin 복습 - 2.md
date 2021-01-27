@@ -12,7 +12,7 @@ class Car(var engine: String, var body: String) {//이건 기본 생성자
         this.price = price
     }
 }
-//클래스를 만드는 방법(1-1) ->1번 방법의 확장
+//클래스를 만드는 방법(1-1) ->1번 방법의 확장!
 class Car1(engine: String, body: String) {
     //constructor() 적어줘도 가능 Car1 constructor(engine: String, body: String)
     //반드시 필요한 생성자 인자(매개변수)을 괄호에 적어줌 engine, body
